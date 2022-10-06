@@ -97,9 +97,10 @@ li.nom{
     background-color: #333;
     color: white;
      }
-.nombre{
+.brand-title{
     font-size: 1.5rem;
     margin: .5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 .navbar-links{
     height: 100%;
@@ -109,6 +110,7 @@ li.nom{
     margin:0;
     padding: 0;
     display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .navbar-links, li.nav{
     list-style: none;
