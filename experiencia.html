@@ -5,33 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="script.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Experiencia</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
 </head>
-<nav class="navbar">
-    <div class="brand-title">Sebastián Leys</div>
-    <a href="#" class="toggle-button">
-    <span class="bar"></span>
-    <span class="bar"></span>
-    <span class="bar"></span> 
-</a>
-    <div class="navbar-links">
-        <ul class="nav">
-            <li class="nav" ><a class="nav" href="index.html" >Inicio</a></li>
-            <li class="nav" ><a class="nav" href="experiencia.html">Experiencia</a></li>
-            <li class="nav" ><a class="nav" href="formacion.html" >Formación</a></li>
-            <li class="nav" ><a class="nav" href="capacidades.html" >Capacidades</a></li>
-            <li class="nav" ><a class="nav" href="datos.html" >Datos Personales</a></li>
-        </ul>
+<nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a id="navBoton" class="navbar-brand" href="experiencia.html">Experiencia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a id="navBoton" class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          <a id="navBoton" class="nav-link" href="capacidades.html">Capacidades</a>
+          <a id="navBoton" class="nav-link" href="formacion.html">Formación</a>
+          <a id="navBoton" class="nav-link" href="datos.html">Datos</a>
+        </div>
+      </div>
     </div>
-    </nav>
-<section>
+  </nav>
+
     <body>
-        <h1 class="datos"><u>Experiencia Laboral</u></h1>
-        <ul class="Aca">
-            <li class="dato">Pasantía 1 año - Bombas Leys</li>
-        </ul>
-    
+       <center><div class="card m-5 bg-white" style="width: 20rem; box-shadow: 10px 10px 54px 22px rgba(0,0,0,0.37);
+          -webkit-box-shadow: 10px 10px 54px 22px rgba(0,0,0,0.37);
+          -moz-box-shadow: 10px 10px 54px 22px rgba(0,0,0,0.37);">
+            <img src="img/logo-leys.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 id="Donde" class="card-title"><b>Bombas Leys</b></h5>
+              <p id="Cuanto" class="card-text"><b>Pasantía 1 año.</b></p>
+              <a href="https://bombasleys.com" class="btn btn-primary"><b>Ir a su página</b></a>
+            </div>
+          </div></center>
     </body>
-</section>
+    <footer class="principal">
+      <div class="g-1">
+    <div class="box">
+    <h2>Mis datos:</h2>
+    <p>Nombre: Sebastian Leys<br>Nacionalidad: Argentino<br>DNI: 44.895.630<br>Ubicación: Capital Federal, Parque Patricios, Comuna 4<br>Teléfono: 11 3825-7283<br>Mail: sebasleys@hotmail.com.ar</p>
+    </div>
+    </footer>
 </html>
+

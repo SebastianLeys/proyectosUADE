@@ -139,7 +139,7 @@ a.boton::before
     content:"";
     position: absolute;
     inset: 2px;
-    background: #28242c;
+    background: #27282c;
 
 }
 a span{
@@ -300,10 +300,6 @@ footer{
     height: 338px;
 
 }
-#redes{
-    width: 10%;
-    margin: 100px;
-}
 
 @media screen and (max-width:800px){
     .principal .g-1{
@@ -318,38 +314,5 @@ footer{
     #Que{
         font-size: 15px;
     }
-    footer{
-        position: relative;
-    }
-    #Foto{
-        width: 75%;
-        height: 75%;
-        filter: drop-shadow(10px 5px 39px #000);
-        margin-left: 50px;
-    }
-    .Bot{
-        margin-left: 70px!important;
-    }
-    #myCarousel.carousel, #imagenes {
-        width: 100%;
-        height: auto;
+
 }
-    #redes{
-        width: 25%;
-        margin: 20px;
-    }
-    .dato{
-        font-size: 20px!important;
-    }
-    .datos{
-        font-size: 35px!important;
-        margin-bottom: 15px!important;
-    }
-}
-@media (max-width: 470px) {
-    #myCarousel.carousel, #imagenes {
-    max-width:300%;
-    width:150%;
-    min-height: 300px;
-    }
-    }
