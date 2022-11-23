@@ -227,6 +227,11 @@ li.Bot{
     padding: 20px;
     text-shadow: 4px 4px 7px rgba(0,0,0,1);
 }
+#con{
+    color: white;
+    margin: 5px;
+}
+
 #Lugar{
     color: white;
     text-shadow: 4px 4px 7px rgba(0,0,0,1);
