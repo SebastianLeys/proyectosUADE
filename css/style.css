@@ -1,6 +1,6 @@
 
 body{
-    background-color: #E0E0CE;
+    background-color: #3b3b38;
 
 }
 #Foto{
@@ -68,12 +68,14 @@ li.dato{
     margin-left: 200px;
     display: flex;
     margin: 0;
+    color: rgba(255, 255, 255, 0.692);
 }
 h1.datos{
     font-size: 40px;
     display: flex;
     margin-top: 10px;
     margin-bottom: -5px;
+    color: rgba(255, 255, 255, 0.692);
 }
 li.nom{
     margin-left:100px;
